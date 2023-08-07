@@ -1,0 +1,598 @@
+/*font:Century Gothic*/
+
+/*rgba(100, 145, 154, 0.71)); - фон кнопок и логотипов*/
+/*rgba(100, 145, 154, 0.71))цвет линий*/
+/*#252626;-цвет фона тела*/
+
+@font-face {
+    font-family: "Century Gothic";
+    font-style: normal;
+    font-weight: 400;
+  
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Century Gothic"),
+         /* Если не получилось, загрузит woff2 */
+         url("../fonts/CenturyGothic.woff2") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("../fonts/CenturyGothic.woff") format("woff");
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Century Gothic";
+    background-color: #252626;
+}
+
+.nav-panel {
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 6px 0px 15px;
+    background-color: #373839;
+}
+
+.nav__logo-wrap {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.phone-wrap {
+    position: absolute;    
+    top: 21px;
+    left: 33%;
+}
+
+.link {    
+    text-decoration: none;
+}
+
+.txt {
+    font-size: 13px;    
+    color: #fff;
+}
+
+.tel {
+    font-size: 17px;
+}
+
+.logo {
+    width: 102%;
+}
+
+.nav__title-container {
+    margin: 16% 0 0 16%;
+    position: absolute;    
+}
+
+.nav__title {    
+    font-size: 10px;
+    font-weight: 200;
+}
+
+.hamb {
+    display: flex;
+    align-items: center;
+  }
+
+  .hamb__field {
+    padding: 20px 10px;
+    cursor: pointer;
+  }
+
+  .hamb__field:hover .bar {
+    opacity: 0.5;
+  }
+
+  .bar {
+    display: block;
+    width: 32px;
+    height: 2px;
+    margin: 8px auto;
+    background-color: #fff;
+    transition: 0.2s;
+  }
+
+.header {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 15px 41px;
+    position: relative;
+    z-index: 1;    
+    background-image: url("../images/header-bg-mobile.jpg");
+    background-size: cover;    
+}
+
+.header:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #000;
+    opacity: 0.54;
+}
+
+.header__wrap {   
+    position: relative; 
+    display: flex;      
+    z-index: 3;   
+}
+
+.page__title-wrap {
+    flex-grow: 4;
+    margin: 20px 0;
+}
+
+.page__title {
+    font-size: 20px;
+}
+
+.title {
+    font-size: 20px;    
+}
+
+.header__contacts {
+    flex-grow: 1;
+    margin-top: 5px;
+}
+
+.social-contacts-list {
+    list-style-type: none;
+}
+
+.logo-md {
+    margin-top: 46px;
+    width: 71px;
+}
+
+.logo-md-first {
+    margin-top: 0;
+}
+
+.header__forms-wrap {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    margin: 14px 0 10px
+}
+
+.form {
+    margin: 39px auto 0;
+}
+
+.btn {
+    color: #fff;   
+    padding: 10px 28px;
+    letter-spacing: 1px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    background-color: rgba(100, 145, 154, 0.71);
+    outline: none;
+    font-size: 17px;
+}
+
+.btn-first {
+    padding: 10px 43px;
+}
+
+.btn-second {
+    padding: 10px 55px;
+}
+
+.section {
+    margin-top: 30px;
+    padding: 0 15px;   
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.section-list-title {
+    font-size: 25px;
+    margin: 0 9px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0 9px;
+}
+
+.maden-wrap {
+    margin-top: 24px;
+}
+
+.title-bar {   
+    display: block;
+    flex-grow: 1;  
+    margin-top: 15px;  
+    border-bottom: 3px solid rgba(100, 145, 154, 0.71);
+}
+
+.item {
+    margin-top: 18px;
+    border: 3px solid #fff;
+    border-radius: 3px;    
+}
+
+.item-title {
+    letter-spacing: 1.1px;
+}
+
+.img {
+    width: 100%;
+    min-height: 313px;
+}    
+
+.title-wrap {    
+    margin-top: 23px;    
+    padding: 10px;
+    background-color: rgba(90, 125, 122, 0.54);
+}
+
+.block {
+    margin-top: 39px;
+}
+
+.services-list-wrap {
+    margin-top: 26px;
+}
+
+.services-action-wrap {
+    display: flex;
+    justify-content: end;
+}
+
+.service-item {
+    min-width: 320px;
+    min-height: 285px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.service-item-first {
+    background-image: url("../images/services-list/mebel-loft.jpg");    
+}
+
+.services-item-second {
+    background-image: url("../images/services-list/lestnicy.jpg");
+}
+
+.service-item-third {
+    background-image: url("../images/services-list/peregorodki.jpg")
+}
+
+.about-us {
+    margin-top: 39px;
+}
+
+.content__about-us {
+    margin-top: 30px;    
+}
+
+.content {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;    
+    line-height: 1.25;
+}
+
+.img-wrap {
+    margin-top: 50px;  
+    display: flex;
+    
+}
+
+.img-about-us {   
+    border-radius: 5px;  
+    object-fit: cover;
+    object-position: center;
+    overflow: auto;
+    height: 171px;
+    min-height: 150px;
+}
+
+.img-adv {
+    max-height: 250px;
+    object-fit: cover;
+}
+
+.adv-wrapper {
+    position: relative;
+    z-index: 1;
+    background-image: url("../images/bg-adv-mobile.jpg");
+    background-size: cover;
+    margin-top: 35px;
+    border-radius: 5px;
+    padding: 18px 15px;
+}
+
+.adv-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #000;
+    opacity: 0.71;
+}
+
+.z-wrap {
+    position: relative;
+    z-index: 3;
+}
+
+.list {    
+    list-style-type: none;
+}
+
+.adv-point {
+    margin-top: 20px;
+    display: flex;
+    align-items: start;
+}
+
+.adv-point-first {
+    margin-top: 0;
+}
+
+.adv-col-sm {
+    margin-right: 12px;
+}
+
+.img-adv {
+    width: 20px;
+}
+
+.section__advantages {
+    margin-top: 40px;
+    padding: 0;
+}
+
+.adv-title {
+    display: block;
+    padding: 0 10px;
+}
+
+.second-head-wrap {
+    margin-top: 2px;
+}
+
+.adv-text {
+   line-height: 1.35;
+}
+
+.section__feedbacks {
+    margin-top: 39px;
+}
+
+.feedback-list {
+    margin-top: 35px;
+    list-style-type: none;
+}
+
+.feedback {    
+    border-radius: 10px;
+    background-color: rgba(100, 145, 154, 0.71);
+    padding: 22px 22px 33px;
+}
+
+.feedback-wrapper {    
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    background-color: rgba(100, 145, 154, 0.27);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.50);
+    padding-bottom: 10px;
+}
+
+.fb-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fb-img {
+    width: 89px;
+    height: 89px;
+    border-radius: 70%;
+    margin: 15px auto 3px;
+}
+
+.fb-from-wrap-db {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.fb-from, .fb-date {
+    font-size: 11px;    
+}
+
+.img-star {
+    width: 19px;
+}
+
+.fb-content-wrap {
+    padding: 0 34px 15px;
+    margin-top: 3px;
+}
+
+.fb-content {
+    font-size: 13px; 
+    line-height: 1.3;   
+}
+
+.fb-main-link-wrap {
+    display: flex;
+    justify-content: end;
+    margin-top: 31px;
+}
+
+.fb-link {
+    text-decoration: underline;
+    padding: 0 8px;
+}
+
+.our-workers-header {
+    margin-top: 39px;
+}
+
+.our-workers-wrap {
+    margin-top: 36px;
+}
+
+.worker {    
+    padding: 43px 60px 45px;
+    border-radius: 5px;
+    background-color: rgba(0, 212, 255, 0.06);
+}
+
+.img-worker-wrap {
+    margin: 0 auto;    
+    height: 284px;
+    background-color: #736E79;
+}
+
+.worker-name-wrap {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.worker-job-name {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.worker-name, .job-name {
+    font-size: 15px;
+}
+
+.img-maps {
+    width: 100%;
+    object-fit: cover;
+    height: 293px;
+    border-radius: 5px;
+}
+
+.section-maps {
+    margin-top: 39px;
+}
+
+.maps-wrapper {
+    padding: 0;
+}
+
+.maps-title {
+    padding: 0 10px;
+}
+
+.maps-main-wrap {
+    margin-top: 35px;
+    padding: 0 34px;
+    
+}
+
+.maps-desc-wrap {
+    display: flex;
+    padding: 0 30px;  
+    justify-content: center;  
+}
+
+.maps-desc-img-wrap {
+    margin-top: 31px;
+    padding: 0 34px;
+}
+
+.maps-desc-text {
+    text-align: center;
+}
+
+.img-in {
+    height: 191px;
+}
+
+.txt-md {
+    font-size: 15px;
+    margin-top: 9px;
+}
+
+.footer {
+    margin-top: 48px;
+    padding: 15px;
+    background-color: #609AA6;
+}
+
+.footer-header-wrap {    
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+    padding: 0 7px;    
+}
+
+.footer-txt {
+    letter-spacing: 1.1px;
+    line-height: 1.65;
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 11px;
+}
+
+.social-center {    
+    margin: 0 15px;
+}
+
+.footer-contacts-list-wrap {
+    margin-top: 18px;
+}
+
+.contact-item-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-phone-wrap {
+    margin-top: 4px;
+}
+
+.email, .tel {
+    font-size: 15px;
+}
+
+.footer-rights-wrap {
+    margin-top: 12px;
+}
+
+.txt-sm {
+    font-size: 11px;
+}
+
+.logo-sm {
+    width: 30px;
+}
