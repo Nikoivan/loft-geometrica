@@ -56,7 +56,7 @@ body {
     color: #fff;
 }
 
-.tel {
+.header-tel {
     font-size: 17px;
 }
 
@@ -284,7 +284,8 @@ body {
 }
 
 .content__about-us {
-    margin-top: 30px;    
+    margin-top: 30px;  
+    padding: 0 6px;  
 }
 
 .content {
@@ -368,12 +369,17 @@ body {
     padding: 0;
 }
 
+.section-title {
+    padding: 0 10px;
+}
+
 .adv-title {
     display: block;
     padding: 0 10px;
 }
 
 .second-head-wrap {
+    text-align: center;
     margin-top: 2px;
 }
 
