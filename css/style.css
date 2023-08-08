@@ -79,23 +79,23 @@ body {
     align-items: center;
   }
 
-  .hamb__field {
+.hamb__field {
     padding: 20px 10px;
     cursor: pointer;
-  }
+}
 
-  .hamb__field:hover .bar {
+.hamb__field:hover .bar {
     opacity: 0.5;
-  }
+}
 
-  .bar {
+.bar {
     display: block;
     width: 32px;
     height: 2px;
     margin: 8px auto;
     background-color: #fff;
     transition: 0.2s;
-  }
+}
 
 .header {
     margin: 0 auto;
@@ -142,6 +142,7 @@ body {
 
 .title {
     font-size: 20px;    
+    font-weight: 400;
 }
 
 .header__contacts {
@@ -222,7 +223,7 @@ body {
     display: block;
     flex-grow: 1;  
     margin-top: 15px;  
-    border-bottom: 3px solid rgba(100, 145, 154, 0.71);
+    border-bottom: 1px solid rgba(100, 145, 154, 0.71);
 }
 
 .item {
@@ -571,7 +572,7 @@ body {
 }
 
 .social-center {    
-    margin: 0 15px;
+    margin: 0 45px;
 }
 
 .footer-contacts-list-wrap {
@@ -600,5 +601,5 @@ body {
 }
 
 .logo-sm {
-    width: 30px;
+    width: 40px;
 }
