@@ -25,12 +25,8 @@
                 </a>
             </div>     
         </div>
-        <ul class="menu" id="menu">
-            <li><a href="index.html">Главная</a></li>                        
-            <li><a href="#">Услуги</a></li>            
-            <li><a href="#">Наши работы</a></li>
-            <li><a href="#">Контакты</a></li>
-        </ul>
+        <div class="navbar__wrap">            
+        </div> 
         <div class="popup" id="popup"></div>              
         <div class="nav__hamb-wrap">
             <div class="hamb">
@@ -73,7 +69,12 @@
             </div>
             <div class="maden-wrap">            
                 <ul class="list worked-list">
-                    <li class="item work-item"><a href="#" class="link"><img src="./images/works-slider/shkaf-loft.jpg" alt="Шкаф в стиле лофт" class="img work-image"></a></li>
+                    <li class="item work-item">
+                        <a href="#" class="link">                            
+                            <img src="./images/works-slider/shkaf-loft.jpg" alt="Шкаф в стиле лофт" class="img work-image">
+                            <img src="./logotips/link-vector.svg" alt="Переход" class="go-link go-link-abs">
+                        </a>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -89,19 +90,26 @@
                 <ul class="list services-list">
                     <li class="item service-item service-item-first">
                        <div class="title-wrap">
-                        <a href="#" class="txt link">
-                            <h3 class="title txt item-title">Мебель LOFT</h3>
+                        <a href="#" class="txt link link-flex">
+                            <div class="service-sm-wrapper"><h3 class="title txt item-title">Мебель LOFT</h3></div>
+                            <div class="service-sm-wrapper"><img src="./logotips/link-vector.svg" alt="Переход" class="go-link"></div>                       
                         </a>                            
                        </div>                        
                     </li>
                     <li class="item service-item services-item-second">
                         <div class="title-wrap">
-                            <a href="#" class="txt link"><h3 class="title txt item-title">Лестницы</h3></a>
+                            <a href="#" class="txt link link-flex">
+                                <div class="service-sm-wrapper"><h3 class="title txt item-title">Лестницы</h3></div>
+                                <div class="service-sm-wrapper"><img src="./logotips/link-vector.svg" alt="Переход" class="go-link"></div>                                
+                            </a>
                         </div>                        
                      </li>
                      <li class="item service-item service-item-third">
                         <div class="title-wrap">
-                            <a href="#" class="txt link"><h3 class="title txt item-title">Перегородки</h3></a>
+                            <a href="#" class="txt link link-flex">
+                                <div class="service-sm-wrapper"><h3 class="title txt item-title">Перегородки</h3></div>
+                                <div class="service-sm-wrapper"><img src="./logotips/link-vector.svg" alt="Переход" class="go-link"></div>
+                            </a>
                         </div>                       
                      </li>
                 </ul>
@@ -243,6 +251,7 @@
                         <div class="worker-job-name">
                             <span class="txt job-name">руководитель проекта</span>
                         </div>
+                        <img src="./logotips/link-vector.svg" alt="Переход" class="go-link go-link-worker">
                     </li>
                 </ul>
             </div>

@@ -91,10 +91,6 @@ body {
     cursor: pointer;
 }
 
-.hamb__field:hover .bar {
-    opacity: 0.5;
-}
-
 .bar {
     display: block;
     width: 32px;
@@ -208,6 +204,16 @@ body {
     padding: 0 15px;   
 }
 
+.work-image {
+    position: relative;
+}
+
+.go-link-abs {
+    position: absolute;
+    margin-top: 145px;  
+    right: 30px;   
+   }
+
 .head {
     display: flex;
     justify-content: center;
@@ -287,6 +293,15 @@ body {
     background-image: url("../images/services-list/peregorodki.jpg")
 }
 
+.link-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-sm-wrapper {
+    padding-right: 20px;
+}
+
 .about-us {
     margin-top: 39px;
 }
@@ -328,6 +343,7 @@ body {
     z-index: 1;
     background-image: url("../images/bg-adv-mobile.jpg");
     background-size: cover;
+    background-position: right;
     margin-top: 35px;
     border-radius: 5px;
     padding: 18px 15px;
@@ -478,6 +494,7 @@ body {
 }
 
 .worker {    
+    position: relative;
     padding: 43px 60px 45px;
     border-radius: 5px;
     background-color: rgba(0, 212, 255, 0.06);
@@ -503,6 +520,12 @@ body {
 
 .worker-name, .job-name {
     font-size: 15px;
+}
+
+.go-link-worker {
+    position: absolute;
+    right: 15px;  
+    top: 165px;
 }
 
 .img-maps {
@@ -612,34 +635,7 @@ body {
 }
 
 @media (max-width: 1200px) {
-    .navbar__wrap .menu {
-      display: none;
-    }
-    
-    .hamb {
-      display: flex;
-      align-items: center;
-    }
-  
-    .hamb__field {
-      padding: 20px 10px;
-      cursor: pointer;
-    }
-  
-    .hamb__field:hover .bar {
-      opacity: 0.5;
-    }
-  
-    .bar {
-      display: block;
-      width: 30px;
-      height: 3px;
-      margin: 6px auto;
-      background-color: #fff;
-      transition: 0.2s;
-    }
-  
-    .popup {
+     .popup {
       position: fixed;
       top: 0;
       left: -100%;
@@ -649,6 +645,7 @@ body {
       z-index: 100;
       display: flex;
       transition: 0.3s;
+      opacity: 1;
     }
   
     .popup.open {
@@ -663,16 +660,16 @@ body {
       align-items: center;
       justify-content: start;
       padding: 50px 0;
-      overflow: auto;
+      overflow: visible;
     }
   
     .popup .menu > li {
         margin-top: 30px;
-         width: 100%;
+        width: 100%;
       }
 
     .popup .menu > li:first-child {
-        margin-top: 105px;
+        margin-top: 50px;
       }
   
     .popup .menu > li > a {
@@ -685,6 +682,10 @@ body {
       color: #fff;
       text-decoration: none;
     }
+
+    .hamb__field.active {
+        z-index: 101;
+    }
   
     .popup .menu > li > a:hover {
       background-color: rgba(122, 82, 179, 0.1);
@@ -695,14 +696,11 @@ body {
     }
   
     .hamb__field.active .bar:nth-child(1) {
-      transform: translateY(8px) rotate(45deg);
+      transform: translateY(10px) rotate(45deg);
     }
   
     .hamb__field.active .bar:nth-child(3) {
-      transform: translateY(-8px) rotate(-45deg);
+      transform: translateY(-10px) rotate(-45deg);
     }
   
-    body.noscroll {
-      overflow: hidden;
-    }
-  }
+}
