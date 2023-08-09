@@ -10,14 +10,25 @@ class MenuAPI {
     this.btn.addEventListener("click", this.onBtnClick);
   }
 
-  onBtnClick(e) {
-    e.preventDefault();
+  get menu() {
     const menu = document.createElement("ul");
     menu.classList.add("menu");
-    menu.innerHTML = `<li><a href="index.html">Главная</a></li>                        
-    <li><a href="#">Услуги</a></li>            
-    <li><a href="#">Наши работы</a></li>
-    <li><a href="#">Контакты</a></li>`;
+    menu.innerHTML = `<li><a class="link-main">Главная</a></li>                        
+<li><a class="link-services">Услуги</a></li>            
+<li><a class="link-services">Наши работы</a></li>
+<li><a class="link-services">Контакты</a></li>`;
+
+    menu.querySelector(".link-main").setAttribute("href", "index.html");
+    menu.querySelector(".link-services").setAttribute("href", "services.html");
+    //наши работы
+    //контакты
+
+    return menu;
+  }
+
+  onBtnClick(e) {
+    e.preventDefault();
+    const menu = this.menu;
 
     document.body.classList.add("noscroll");
     this.popup.classList.add("open");

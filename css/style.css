@@ -56,7 +56,7 @@ body {
     color: #fff;
 }
 
-.header-tel {
+.head-tel {
     font-size: 17px;
 }
 
@@ -100,7 +100,7 @@ body {
     transition: 0.2s;
 }
 
-.header {
+.page-head {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -114,7 +114,7 @@ body {
     background-size: cover;    
 }
 
-.header:after {
+.page-head:after {
     content: "";
     position: absolute;
     top: 0;
@@ -128,7 +128,7 @@ body {
     opacity: 0.54;
 }
 
-.header__wrap {   
+.head__wrap {   
     position: relative; 
     display: flex;      
     z-index: 3;   
@@ -148,7 +148,7 @@ body {
     font-weight: 400;
 }
 
-.header__contacts {
+.head__contacts {
     flex-grow: 1;
     margin-top: 5px;
 }
@@ -166,7 +166,7 @@ body {
     margin-top: 0;
 }
 
-.header__forms-wrap {
+.head__forms-wrap {
     position: relative;
     z-index: 3;
     display: flex;
@@ -218,6 +218,25 @@ body {
     display: flex;
     justify-content: center;
     align-items: start;
+}
+
+.main {
+    padding: 15px;
+}
+
+.page-main-head {
+    margin-top: 30px;
+}
+
+.main__description {
+    margin-top: 30px;
+}
+
+.description__content {
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
 }
 
 .section-list-title {
@@ -281,6 +300,16 @@ body {
     background-position: center;
 }
 
+.adv-sm__wrap {
+    margin-right: 20px;
+}
+
+.adv-item__conteiner {
+    display: flex;    
+    align-items: center;
+    margin-top: 30px;
+}
+
 .service-item-first {
     background-image: url("../images/services-list/mebel-loft.jpg");    
 }
@@ -291,6 +320,14 @@ body {
 
 .service-item-third {
     background-image: url("../images/services-list/peregorodki.jpg")
+}
+
+.service-item-fourth {
+    background-image: url("../images/services-list/mebel-ulica.jpg")
+}
+
+.service-item-fiveth {
+    background-image: url("../images/services-list/pokraska.jpg")
 }
 
 .link-flex {
