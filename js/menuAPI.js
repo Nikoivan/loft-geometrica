@@ -15,13 +15,13 @@ class MenuAPI {
     menu.classList.add("menu");
     menu.innerHTML = `<li><a class="link-main">Главная</a></li>                        
 <li><a class="link-services">Услуги</a></li>            
-<li><a class="link-services">Наши работы</a></li>
-<li><a class="link-services">Контакты</a></li>`;
+<li><a class="link-works">Наши работы</a></li>
+<li><a class="link-contacts">Контакты</a></li>`;
 
     menu.querySelector(".link-main").setAttribute("href", "index.html");
     menu.querySelector(".link-services").setAttribute("href", "services.html");
-    //наши работы
-    //контакты
+    menu.querySelector(".link-works").setAttribute("href", "works.html");
+    menu.querySelector(".link-contacts").setAttribute("href", "contacts.html");
 
     return menu;
   }

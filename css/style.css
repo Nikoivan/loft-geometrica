@@ -56,6 +56,14 @@ body {
     color: #fff;
 }
 
+.bold {
+    font-weight: 700;
+}
+
+.txt-lg {
+    font-size: 17px;
+}
+
 .head-tel {
     font-size: 17px;
 }
@@ -649,6 +657,10 @@ body {
 .contact-item-wrap {
     display: flex;
     justify-content: center;
+}
+
+.contact-item-wrap-md {
+    margin-top: 20px;
 }
 
 .contact-phone-wrap {
