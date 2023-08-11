@@ -184,8 +184,16 @@ body {
     margin: 14px 0 10px
 }
 
+.forms-services{
+    margin-top: 0;
+}
+
 .form {
     margin: 39px auto 0;
+}
+
+.form-service {
+    margin-top: 29px;
 }
 
 .btn {
@@ -233,11 +241,11 @@ body {
 }
 
 .page-main-head {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .main__description {
-    margin-top: 30px;
+    margin-top: 26px;
 }
 
 .description__content {
@@ -247,12 +255,16 @@ body {
     text-align: center;
 }
 
-.section-list-title {
-    font-size: 25px;
+.section-list-title {    
     margin: 0 9px;
     letter-spacing: 1px;
     text-align: center;
     margin: 0 9px;
+}
+
+.market-adv-wrapper {
+    margin-top: 40px;
+    padding: 0 5px;
 }
 
 .maden-wrap {
@@ -266,8 +278,12 @@ body {
     border-bottom: 1px solid rgba(100, 145, 154, 0.71);
 }
 
+.av-text-md {
+    font-size: 12px;
+}
+
 .item {
-    margin-top: 18px;
+    margin-top: 22px;
     border: 3px solid #fff;
     border-radius: 3px;    
 }
@@ -315,7 +331,7 @@ body {
 .adv-item__conteiner {
     display: flex;    
     align-items: center;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .service-item-first {
@@ -404,6 +420,10 @@ body {
     z-index: 2;
     background-color: #000;
     opacity: 0.71;
+}
+
+.adv-lg__wrap {
+    padding: 10px;
 }
 
 .z-wrap {
@@ -628,6 +648,10 @@ body {
     background-color: #609AA6;
 }
 
+.footer-services {
+    margin-top: 21px;
+}
+
 .footer-header-wrap {    
     display: flex;
     justify-content: center;
@@ -647,7 +671,7 @@ body {
 }
 
 .social-center {    
-    margin: 0 45px;
+    margin: 0 30px;
 }
 
 .footer-contacts-list-wrap {
@@ -680,7 +704,7 @@ body {
 }
 
 .logo-sm {
-    width: 40px;
+    width: 50px;
 }
 
 @media (max-width: 1200px) {
