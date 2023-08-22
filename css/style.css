@@ -18,6 +18,9 @@
   }
 
 * {
+    font-family: "Century Gothic";
+    font-style: normal;
+    font-weight: 400;
     margin: 0;
     padding: 0;
 }
@@ -26,6 +29,185 @@ body {
     font-family: "Century Gothic";
     background-color: #252626;
 }
+
+/*popup-form*/
+
+.popup-form {    
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    box-sizing: content-box;
+    width: 100%;
+    height: 100%;
+    background-color: #609AA6;
+    background-image: url("../images/popup-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.popup-form-wrapper {
+    padding: 0 22px;
+    margin: auto;
+    min-width: 300px;    
+    max-width: 400px; 
+}
+
+.popup-form-header {
+    margin-top: 9px;
+}
+
+.popup-close-wrap {
+    text-align: right;
+}
+
+.popup-close-btn {
+    font-size: 33px;
+    color: #fff;
+}
+
+.popup-form-main {
+    margin-top: 18px;
+    background-color: rgba(255, 255, 255, 0.68);
+    box-shadow: 0px 4px 4px 0px rgba(207, 201, 201, 0.37);
+    padding: 25px 11px;
+    border-radius: 5px;
+}
+
+.popup-from-title-wrap{
+    text-align: center;
+}
+
+.popup-form-title {
+    font-size: 20px;
+}
+
+.form__popup {
+    margin-top: 24px;
+}
+
+.form-name-wrap {
+    margin-top: 13px;
+}
+
+.form-tool-wrap {
+    padding-left: 5px;
+}
+
+.form-tool-wrap, .input {
+    display: block;
+    font-size: 15px;
+}
+
+.name-sp-tooltip {
+    color: #F00;
+    margin-left: 3px;
+}
+
+.input {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.area-message {
+    height: 60px;
+    width: 100%;
+}
+
+.from-file-wrap {
+    background-color: #fff;
+    height: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+.input-file {
+	position: relative;
+	display: inline-block;
+}
+.input-file-text {
+	padding: 0 10px;
+	line-height: 40px;
+	text-align: left;
+	height: 40px;
+	display: block;
+	float: left;
+	box-sizing: border-box;
+	width: 200px;
+	border-radius: 6px 0px 0 6px;
+	border: 1px solid #ddd;
+}
+.input-file-btn {
+    position: relative;
+	display: inline-block;
+	cursor: pointer;
+	outline: none;
+	text-decoration: none;
+	font-size: 12px;
+	vertical-align: middle;
+	color: rgb(255 255 255);
+	text-align: center;
+	border-radius: 5px;
+	background-color: rgba(100, 145, 154, 0.71);	
+	padding: 3px;
+	box-sizing: border-box;
+	border: none;
+	margin: 0;
+	transition: background-color 0.2s;
+}
+.input-file input[type=file] {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	display: block;
+	width: 0;
+	height: 0;
+}
+ 
+/* Focus */
+.input-file input[type=file]:focus + .input-file-btn {
+	box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+ 
+/* Hover/active */
+.input-file:hover .input-file-btn {
+	background-color: #59be6e;
+}
+.input-file:active .input-file-btn {
+	background-color: #2E703A;
+}
+ 
+/* Disabled */
+.input-file input[type=file]:disabled + .input-file-btn {
+	background-color: #eee;
+}
+
+.form-footer {
+    display: flex;
+}
+
+.form-check-wrap {}
+
+.form-checkbox {
+    width: 24px;
+}
+
+.policy {
+    color: #249AA5;
+}
+
+/*popup-form*/
+
+/* header */
 
 .nav-panel {
     display: flex;
@@ -236,8 +418,14 @@ body {
     align-items: start;
 }
 
+/* header */
+
 .main {
-    padding: 15px;
+    padding: 15px 0;
+}
+
+.mob-dn {
+    display: none;
 }
 
 .page-main-head {
@@ -264,11 +452,14 @@ body {
 
 .market-adv-wrapper {
     margin-top: 40px;
-    padding: 0 5px;
+    padding: 0 4px;
 }
 
 .maden-wrap {
     margin-top: 24px;
+}
+.maden-wrap__works {
+    margin-top: 39px;
 }
 
 .title-bar {   
@@ -296,6 +487,10 @@ body {
     width: 100%;
     min-height: 313px;
 }    
+
+.img-works {
+    height: 200px;
+}
 
 .title-wrap {    
     margin-top: 23px;    
@@ -334,6 +529,10 @@ body {
     margin-top: 15px;
 }
 
+.item-works {
+    margin-top: 30px;
+}
+
 .service-item-first {
     background-image: url("../images/services-list/mebel-loft.jpg");    
 }
@@ -347,10 +546,12 @@ body {
 }
 
 .service-item-fourth {
+    display: none;
     background-image: url("../images/services-list/mebel-ulica.jpg")
 }
 
 .service-item-fiveth {
+    display: none;
     background-image: url("../images/services-list/pokraska.jpg")
 }
 
@@ -423,7 +624,7 @@ body {
 }
 
 .adv-lg__wrap {
-    padding: 10px;
+    padding: 5px;
 }
 
 .z-wrap {
@@ -491,6 +692,10 @@ body {
     padding: 22px 22px 33px;
 }
 
+.feedback:nth-child(2) {
+    display: none;
+}
+
 .feedback-wrapper {    
     border-radius: 10px;
     display: flex;
@@ -550,11 +755,15 @@ body {
     padding: 0 8px;
 }
 
+.our-workers-list {
+    list-style-type: none;
+}
+
 .our-workers-header {
     margin-top: 39px;
 }
 
-.our-workers-wrap {
+.our-workers-wrap {   
     margin-top: 36px;
 }
 
@@ -776,4 +985,167 @@ body {
       transform: translateY(-10px) rotate(-45deg);
     }
   
+}
+
+@media (min-width: 641px) and (max-width: 1200px){
+    /* popup */
+    .popup-form-wrapper {
+        margin: auto;
+        min-width: 400px;
+        min-height: 80%;
+        max-width: 500px;
+        max-height: 90%;
+    }
+    /* popup */
+    /* header */
+
+    /* header */
+    /* aside */
+    .worked-list {
+        display: grid;
+        row-gap: 10px; 
+        column-gap: 12px;      
+        grid-template-areas: 
+        "A B"
+        "A C"       
+        "D C"        
+        ;
+
+        grid-template-columns: 49% 49%;        
+    }
+
+    .worked-list .item {
+        border: 10px solid #fff;
+        border-radius: 0;
+    }
+    
+    .work-item:nth-child(1) {
+        grid-area: A;        
+    }
+
+    .work-item:nth-child(2) {
+        grid-area: B;
+    }
+    .work-item:nth-child(3) {
+        grid-area: C;        
+    }
+
+    .work-item:nth-child(4) {
+        grid-area: D;
+    }
+  
+
+    .img {
+        min-width: 10px;
+    }
+
+    .work-image {
+        object-fit: cover;
+        max-width: 100%;
+        max-height: 100%;
+        object-position: center; 
+        min-height: 100%;                   
+    }
+
+    .item {
+        margin-top: 0;
+    }
+
+    .second-worked-list {
+        margin-top: 10px;
+        display: flex;        
+    }
+
+    .second-worked-list .work-item:nth-child(1) {
+        flex-basis: 27%;             
+    }
+
+    .second-worked-list .work-item:nth-child(2) {
+        flex-basis: 40%;
+    }
+
+    .second-worked-list .work-item:nth-child(3) {
+        flex-basis: 27%;
+    }
+
+    .second-worked-list .work-item {
+        height: 220px;
+    }
+
+    .tab-dn {
+        display: none;
+    }
+    /* aside */
+    /* main */
+    .services-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .services-list .service-item {
+        flex-grow: 1;
+        flex-basis: 45%
+    }
+
+.service-item-fourth {
+    display: block;
+}
+    /* main */
+
+    /* aside */
+    .img-about-us {
+        height: 300px;
+    }
+
+    .feedback-list {
+        display: flex;
+        gap: 20px;
+    }
+
+    .feedback {
+        flex-grow: 1;
+        flex-basis: 50%;
+    }
+
+    .feedback:nth-child(2) {
+        display: block;
+    }
+
+    .feedback-wrapper {
+        min-height: 380px;
+    }
+
+    .our-workers-list {        
+        display: flex;
+    }
+
+    .img-maps {
+        min-height: 330px;
+    }
+    /* aside */
+    /* footer */
+
+    /* footer */
+}
+
+@media (min-width: 1201px) {
+    /* popup */
+    .popup-form-wrapper {
+        margin: auto;
+        min-width: 400px;
+        min-height: 40%;
+        max-width: 500px;
+        max-height: 50%;
+    }
+    /* popup */
+    /* header */
+
+    /* header */
+    /* main */
+    
+    /* main */
+    /* footer */
+
+    /* footer */
 }
