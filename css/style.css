@@ -195,8 +195,6 @@ body {
     display: flex;
 }
 
-.form-check-wrap {}
-
 .form-checkbox {
     width: 24px;
 }
@@ -259,8 +257,7 @@ body {
     position: absolute;    
 }
 
-.menu {
-    display: none;
+.menu {    
     background-image: url("../images/menu-bg-mob.jpg");
     background-size: cover;
     background-position: center;
@@ -288,6 +285,10 @@ body {
     margin: 8px auto;
     background-color: #fff;
     transition: 0.2s;
+}
+
+.menu-wrap {
+    display: none;
 }
 
 .page-head {
@@ -988,6 +989,10 @@ body {
 }
 
 @media (min-width: 641px) and (max-width: 1200px){
+    .mob-dn {
+        display: block;
+    }
+
     /* popup */
     .popup-form-wrapper {
         margin: auto;
@@ -998,7 +1003,7 @@ body {
     }
     /* popup */
     /* header */
-
+    
     /* header */
     /* aside */
     .worked-list {
@@ -1083,9 +1088,13 @@ body {
         gap: 20px;
     }
 
+    .service-item {
+        min-width: 0;
+    }
+
     .services-list .service-item {
         flex-grow: 1;
-        flex-basis: 45%
+        flex-basis: 46%;        
     }
 
 .service-item-fourth {
@@ -1140,8 +1149,54 @@ body {
     }
     /* popup */
     /* header */
+    .nav-panel {
+        align-items: center;
+        padding-right: 67px;
+    }
 
+    .phone-wrap {
+        display: none;
+    }
+
+    .nav__title-container {
+        margin: 10% 0 0 16%;
+    }
+
+    .nav__title {
+        font-size: 17px;
+    }
+
+    .hamb {
+        display: none;
+    }
+
+    .menu-wrap {
+        display: block;
+    }
+
+    .menu {
+        list-style-type: none;
+        background-image: none;
+        display: flex;
+        gap: 60px;
+    }
+
+    .link-main, .link-services, .link-works, .link-contacts {
+        color: #fff;
+    }
+
+   
     /* header */
+    /* aside */
+    .page-head {
+        align-items: space-between;
+        background-image: url("../images/header-bg-dt.jpg")
+    }
+
+    .page__title-wrap {
+        max-width: 600px;
+    }
+    /* aside */
     /* main */
     
     /* main */
