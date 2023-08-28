@@ -538,23 +538,23 @@ body {
     margin-top: 30px;
 }
 
-.service-item:nth-child(1) {
+.service-item {
     background-image: url("../images/services-list/mebel-loft.jpg");    
 }
 
-.services-item:nth-child(2) {
+ .service-item-second {
     background-image: url("../images/services-list/lestnicy.jpg");
 }
 
-.service-item:nth-child(3) {
+.service-item-third {
     background-image: url("../images/services-list/peregorodki.jpg")
 }
 
-.service-item:nth-child(4) {    
+.service-item-fourth {    
     background-image: url("../images/services-list/mebel-ulica.jpg")
 }
 
-.service-item:nth-child(5) {    
+.service-item-fiveth {    
     background-image: url("../images/services-list/pokraska.jpg")
 }
 
