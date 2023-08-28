@@ -403,8 +403,12 @@ body {
 }
 
 .section {
-    margin-top: 30px;
+    margin-top: 28px;
     padding: 0 15px;   
+}
+
+.services-section {
+    margin-top: 16px;
 }
 
 .work-image {
@@ -453,6 +457,7 @@ body {
     letter-spacing: 1px;
     text-align: center;
     margin: 0 9px;
+    font-size: 25px;
 }
 
 .market-adv-wrapper {
@@ -517,6 +522,7 @@ body {
 }
 
 .service-item {
+    margin-top: 18px;
     min-width: 320px;
     min-height: 285px;
     background-repeat: no-repeat;
@@ -567,8 +573,8 @@ body {
     padding-right: 20px;
 }
 
-.about-us {
-    margin-top: 39px;
+.section__about-us {
+    margin-top: 25px;
 }
 
 .content__about-us {
@@ -915,6 +921,7 @@ body {
     width: 50px;
 }
 
+
 @media (max-width: 1200px) {
      .popup {
       position: fixed;
@@ -1103,7 +1110,7 @@ body {
         ;
 
         grid-template-columns: 49.3% 49.3%;  
-        grid-template-rows: 26% 28% 28%;               
+        grid-template-rows: 29% 30% 31%;               
     }
 
     .worked-list .item {
@@ -1143,7 +1150,7 @@ body {
     }
 
     .second-worked-list {
-        margin-top: -120px;
+        margin-top: -48px;
         display: flex;        
     }
 
@@ -1180,6 +1187,12 @@ body {
         display: flex;
         flex-wrap: wrap;
         gap: 20px;
+    }
+
+    .services-item-container {
+        flex-grow: 1;
+        flex-basis: 45%;
+        min-width: 300px;
     }
 
     .service-item {
@@ -1305,8 +1318,12 @@ body {
         padding-bottom: 28px;
     }
 
+    .job-name {
+        text-align: center;
+    }
+
     .section-maps {
-        margin-top: 45px;
+        margin-top: 48px;
     } 
 
     .maps-main-wrap {
@@ -1361,7 +1378,7 @@ body {
 
     .mob-dn {
         display: block;
-    }
+    }    
 
     .tab-dn {
         display: none;
