@@ -30,6 +30,10 @@ body {
     background-color: #252626;
 }
 
+.noscroll {
+    overflow: hidden;
+}
+
 .simple {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
