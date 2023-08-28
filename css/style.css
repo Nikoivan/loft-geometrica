@@ -1787,6 +1787,7 @@ body {
         gap: 65px;
         background-color: rgba(0, 212, 255, 0.06);
         padding: 0 95px;
+        width: 100%;
     }
 
     .worker {
