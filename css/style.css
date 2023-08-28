@@ -1777,11 +1777,13 @@ body {
 
     .our-workers-wrap {
         margin: 55px auto 0;
-        padding: 0 50px;        
+        padding: 0 50px;
+        display: flex;           
     }
 
-    .our-workers-list {
+    .our-workers-list {       
         display: flex;
+        justify-content: space-between;
         gap: 65px;
         background-color: rgba(0, 212, 255, 0.06);
         padding: 0 95px;
