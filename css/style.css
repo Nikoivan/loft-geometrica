@@ -42,6 +42,10 @@ body {
     display: none;
 }
 
+.bold {
+    font-weight: 700;
+}
+
 /*popup-form*/
 
 .popup-form {    
@@ -2273,6 +2277,61 @@ body {
 
     .sr-form:nth-child(1) {
         margin-top: 0;
+    }
+
+    .ow-section-main {
+        margin-top: 37px;
+    }
+
+    .ow-main__description {
+        margin-top: 60px;
+        padding: 0 150px;
+    }
+
+    .ow-content {
+        font-size: 22px;
+        line-height: 1.6;
+    }
+
+    .ow-market-adv-wrapper {
+        padding: 0 150px;
+        margin-top: 39px;
+    }
+
+    .ow-item-works {
+        margin-top: 12px;
+    }
+
+    .ow-av-text-md {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .ow-maden-wrap__works {
+        margin-top: 20px;
+        padding: 0 150px;
+    }
+
+    .ow-worked-list {
+        margin-top: 40px;
+        display: block;
+    }
+
+    .ow-sp-title {
+        font-size: 25px;
+        width: 180px;
+        padding: 5px 0;
+    }
+
+    .ow-worked-list .owe-work-item {
+        border-width: 3px;
+        border-radius: 3px;
+        height: 705px;
+        position: relative;
+    }
+
+    .ow-forms {
+        margin-top: 50px;
     }
 
     /* footer */
