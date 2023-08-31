@@ -960,12 +960,12 @@ body {
 }
 
 .sr-market-adv-wrapper {
-    margin-top: 48px;
+    margin: 48px auto 0;
 }
 
 .sr-adv-item__conteiner {
     align-items: start;
-    margin-top: 50px;
+    margin-top: 16px;
 }
 
 .sr-adv-sm__wrap {
@@ -988,6 +988,68 @@ body {
 .drawing-list, .sr-works-header {
     display: none;
 }
+
+.ow-section-main {
+    padding: 0 15px;
+}
+
+.ow-section-list-title {
+    font-size: 20px;
+}
+
+.ow-adv-sm__wrap {
+    margin-right: 10px;
+}
+
+.ow-av-text-md {
+    line-height: 1.6;
+}
+
+.ow-market-adv-wrapper {
+    margin-top: 37px;
+}
+
+.ow-item-works {
+    margin-top: 25px;
+}
+
+.ow-maden-wrap__works {
+    margin-top: 28px;
+}
+
+.ow-work-item {
+    position: relative;
+}
+
+.ow-title-wrap {
+    position: absolute;    
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.ow-go-link-abs {
+    right: 7px;
+}
+
+.ow-service-sm-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ow-sp-title {     
+    font-size: 15px;
+    font-weight: 700;
+    width: 120px;
+    text-align: center;
+}
+
+.ow-forms {
+    margin-top: 21px;
+}
+
+
 
  
 @media (max-width: 640px) {
@@ -1510,7 +1572,7 @@ body {
     }
 
     .sr-forms {
-        margin-top: 8px;
+        margin-top: 32px;
     }
 
     .sr-form {
