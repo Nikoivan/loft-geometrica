@@ -1578,6 +1578,73 @@ body {
     .sr-form {
         margin-top: 45px;
     }
+
+    .ow-section-main {
+        margin-top: 39px;
+        padding: 0 24px;
+    }
+
+    .ow-market-adv-wrapper {
+        margin-top: 25px;
+    }
+
+    .ow-main__description {
+        padding: 24px 60px;
+    }
+
+    .ow-maden-wrap__works {
+        margin-top: 37px;
+    }
+
+    .ow-content {
+        font-size: 35px;
+    }
+
+    .ow-go-link-abs {
+        width: 28px;
+        margin-top: 300px;
+    }
+
+    .ow-adv-sm__wrap {
+        margin-right: 18px;
+    }
+
+    .ow-av-text-md {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+    .ow-item-works {
+        margin-top: 18px;
+    }
+
+    .ow-worked-list {
+        display: flex;
+    }
+
+    .ow-worked-list .owe-work-item {
+        flex-grow: 1;
+        border-radius: 3px;
+        border: 3px solid #fff;
+        position: relative;
+        height: 660px;
+    }
+
+    .ow-work-img {
+        height: 800px;
+    }
+
+    .ow-sp-title {
+        width: 170px;
+    }
+
+    .ow-forms {
+        margin-top: 30px;
+    }
+
+    .ow-form:nth-child(2) {
+        margin-top: 45px;
+    }
 }
 
 @media (min-width: 1201px) {    
