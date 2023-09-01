@@ -2425,6 +2425,49 @@ body {
         margin-top: 50px;
     }
 
+    .ct-section-main {
+        margin-top: 37px;
+    }
+
+    .ct-description__content {
+        font-size: 25px;
+        padding: 0 305px;
+    }
+
+    .ct-main__description {
+        margin-top: 66px;
+    }
+
+    .ct-contact-item-wrap-md {
+        margin-top: 70px;
+        display: block;
+    }
+
+    .ct-item-wrap-md {
+        margin-top: 66px;
+    }
+
+    .ct-txt {
+        font-size: 25px;
+    }
+
+    .ct-forms {
+        margin-top: 70px;
+    }
+
+    .ct-social-wrap {
+        justify-content: center;
+        margin-top: 59px;
+    }
+
+    .ct-maps-main-wrap {
+        margin-top: 70px;
+    }
+
+    .ct-maps-desc-img-wrap {
+        margin-top: 66px;
+    }
+
     /* footer */
 
     .des-dn {
