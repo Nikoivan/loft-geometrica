@@ -1053,7 +1053,62 @@ body {
     margin-top: 21px;
 }
 
+.ow-worked-list .owe-work-item {
+    position: relative;
+}
 
+.ct-main__description {
+    padding: 0 15px;
+}
+
+.ct-contact-item-wrap-md {
+    margin-top: 30px;
+}
+
+.ct-forms {
+    margin-top: 34px;
+    margin-bottom: 0;
+}
+
+.ct-form {
+    margin-top: 23px;
+}
+
+.ct-form:nth-child(1) {
+    margin-top: 0;
+}
+
+.ct-social-wrap, .ct-social-list {
+    margin-top: 0;
+}
+
+.ct-logo-md {
+    margin-top: 29px;
+}
+
+.ct-section-maps {
+    margin-top: 30px;
+}
+
+.ct-maps-desc-wrap {
+    margin-top: 6px;
+}
+
+.ct-maps-desc-wrap:nth-child(3) {
+    margin-top: 6px;
+}
+
+.ct-maps-desc-wrap {
+    margin-top: 0;
+}
+
+.ct-text {
+    font-size: 15px;
+}
+
+.ct-maps-desc-img-wrap {
+    margin-top: 27px;
+}
 
  
 @media (max-width: 640px) {
