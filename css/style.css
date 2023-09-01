@@ -1704,6 +1704,42 @@ body {
     .ow-form:nth-child(2) {
         margin-top: 45px;
     }
+
+    .ct-section-main {
+        margin-top: 38px;
+    }
+
+    .ct-description__content {
+        font-size: 35px;
+    }
+
+    .ct-main__description {
+        margin-top: 52px;
+        padding: 0 30px;
+    }
+
+    .ct-txt {
+        font-size: 30px
+    }
+
+    .ct-contact-item-wrap-md {
+        margin-top: 54px;
+    }
+
+    .ct-item-wrap-md {
+        margin-top: 30px;
+    }
+
+    .ct-logo-md {
+        margin-top: 35px;
+    }
+    .ct-maps-desc-img-wrap {
+        margin-top: 46px;
+    }
+
+    .ct-maps-desc-wrap:nth-child(3) {
+        margin-top: 15px;
+    }
 }
 
 @media (min-width: 1201px) {    
