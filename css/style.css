@@ -319,6 +319,9 @@ body {
   z-index: 1;
   background-image: url("../images/header-bg-mobile.jpg");
   background-size: cover;
+  animation-name: page-head;
+  animation-duration: 15000ms;
+  animation-fill-mode: forwards;
 }
 
 .page-head:after {
@@ -404,6 +407,10 @@ body {
   background-color: rgba(100, 145, 154, 0.71);
   outline: none;
   font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #252626;
 }
 
 .btn-first {
@@ -515,6 +522,10 @@ body {
   margin-top: 23px;
   padding: 10px;
   background-color: rgba(90, 125, 122, 0.54);
+}
+
+.title-wrap:hover {
+  background-color: rgb(27 29 29 / 54%);
 }
 
 .block {
@@ -1257,6 +1268,37 @@ body {
 .mob-dn {
   display: none;
 }
+
+/* slider */
+
+.slider-wrap {
+  position: relative;
+  padding: 0;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  height: 323px;
+  max-width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slider-list {
+  display: flex;
+  transition: all ease 1s;
+}
+
+.slider-item {
+  object-fit: cover;
+}
+
+.slider-btn {
+  position: absolute;
+  right: 10%;
+  margin-top: 140px;
+  z-index: 999;
+}
+
+/* slider */
 
 @media (max-width: 640px) {
   .work-image {
@@ -2168,7 +2210,7 @@ body {
   }
 
   .nav__title-container {
-    margin: 4.5% 0 0 -6%;
+    margin: 61px 0 0 -6%;
   }
 
   .nav__title {
@@ -3209,6 +3251,16 @@ body {
 
   .pk-adv {
     width: 40px;
+  }
+
+  @keyframes page-head {
+    0% {
+      background-position: bottom;
+    }
+
+    100% {
+      background-position: top;
+    }
   }
 
   /* footer */
