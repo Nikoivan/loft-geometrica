@@ -241,6 +241,8 @@ body {
   position: absolute;
   top: 21px;
   left: 33%;
+  animation-name: phone;
+  animation-duration: 2s;
 }
 
 .link {
@@ -266,11 +268,25 @@ body {
 
 .logo {
   width: 102%;
+  animation-name: logo;
+  animation-duration: 2s;
+}
+
+@keyframes logo {
+  0% {
+    margin-left: 1000px;
+  }
+
+  100% {
+    margin-left: 0;
+  }
 }
 
 .nav__title-container {
-  margin: 16% 0 0 16%;
+  margin: 61px 0 0 16%;
   position: absolute;
+  animation-name: title;
+  animation-duration: 2s;
 }
 
 .menu {
@@ -287,6 +303,8 @@ body {
 .hamb {
   display: flex;
   align-items: center;
+  animation-name: hamb;
+  animation-duration: 2s;
 }
 
 .hamb__field {
@@ -342,6 +360,67 @@ body {
   position: relative;
   display: flex;
   z-index: 3;
+  animation-name: second-header;
+  animation-duration: 2s;
+}
+
+@keyframes title {
+  0% {
+    margin-top: 300px;
+  }
+
+  100% {
+    margin-top: 61px;
+  }
+}
+
+@keyframes title {
+  0% {
+    margin-top: 300px;
+  }
+
+  100% {
+    margin-top: 61px;
+  }
+}
+
+@keyframes phone {
+  0% {
+    top: -60px;
+  }
+
+  100% {
+    top: 21px;
+  }
+}
+
+@keyframes second-header {
+  0% {
+    margin-left: 1000px;
+  }
+
+  100% {
+    margin-left: 0;
+  }
+}
+
+@keyframes hamb {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes forms {
+  0% {
+    margin-top: 1000px;
+  }
+
+  100% {
+    margin-top: 14px;
+  }
 }
 
 .page__title-wrap {
@@ -384,6 +463,8 @@ body {
   align-items: center;
   justify-content: end;
   margin: 14px 0 10px;
+  animation-name: forms;
+  animation-duration: 1s;
 }
 
 .forms-services {
@@ -1299,6 +1380,10 @@ body {
 }
 
 /* slider */
+
+/* animation */
+
+/* animation */
 
 @media (max-width: 640px) {
   .work-image {
