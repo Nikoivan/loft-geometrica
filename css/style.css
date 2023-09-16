@@ -1433,6 +1433,26 @@ body {
     display: block;
   }
 
+  @keyframes title {
+    0% {
+      margin-top: 300px;
+    }
+
+    100% {
+      margin-top: 79px;
+    }
+  }
+
+  @keyframes phone {
+    0% {
+      top: -60px;
+    }
+
+    100% {
+      top: 33px;
+    }
+  }
+
   /* popup */
   .popup-form-wrapper {
     margin: auto;
