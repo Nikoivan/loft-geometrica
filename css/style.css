@@ -274,11 +274,11 @@ body {
 
 @keyframes logo {
   0% {
-    margin-left: 1000px;
+    transform: scale(0);
   }
 
   100% {
-    margin-left: 0;
+    transform: scale(1);
   }
 }
 
@@ -360,18 +360,6 @@ body {
   position: relative;
   display: flex;
   z-index: 3;
-  animation-name: second-header;
-  animation-duration: 2s;
-}
-
-@keyframes title {
-  0% {
-    margin-top: 300px;
-  }
-
-  100% {
-    margin-top: 61px;
-  }
 }
 
 @keyframes title {
@@ -394,32 +382,12 @@ body {
   }
 }
 
-@keyframes second-header {
-  0% {
-    margin-left: 1000px;
-  }
-
-  100% {
-    margin-left: 0;
-  }
-}
-
 @keyframes hamb {
   0% {
     transform: scale(0);
   }
   100% {
     transform: scale(1);
-  }
-}
-
-@keyframes forms {
-  0% {
-    margin-top: 1000px;
-  }
-
-  100% {
-    margin-top: 14px;
   }
 }
 
@@ -463,8 +431,6 @@ body {
   align-items: center;
   justify-content: end;
   margin: 14px 0 10px;
-  animation-name: forms;
-  animation-duration: 1s;
 }
 
 .forms-services {
